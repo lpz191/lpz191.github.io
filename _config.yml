@@ -4,7 +4,7 @@
 
 # Site
 title: 520Tech
-subtitle: 
+subtitle: 只想做一只安静的程序猿
 description:
 keywords:
 author: Aaron Liu
@@ -77,7 +77,7 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 #RSS订阅 plugin: - hexo-generator-feed
 #Feed Atom feed: type: atom path: atom.xml limit: 20
-theme: next
+theme: spfk
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
