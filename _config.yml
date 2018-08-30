@@ -4,7 +4,7 @@
 
 # Site
 title: 520Tech
-subtitle: 只想做一只安静的程序猿
+subtitle: 只想做一只安静的程序猿...
 description:
 keywords:
 author: Aaron Liu
@@ -91,9 +91,17 @@ deploy:
 ## aside-description
 ## links
 search: true
+#path: search.json
+#  field: post
 avatar: http://olnzpdi2u.bkt.clouddn.com/avatar.jpg
 aside-description: aside-description
 links:
   百度: https://www.baidu.com/
   谷歌: https://www.google.com/
   知乎: https://www.zhihu.com/
+#livere_uid: MTAyMC8zOTM1OC8xNTg4NQ==
+
+#admin:
+#    username: lp191
+#    password_hash: eb3c3045f91642ccd710eb4b08ffcf1b
+#    secret: a secret something
