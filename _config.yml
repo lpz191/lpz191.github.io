@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 520Tech
+title: Aaron的博客
 subtitle: 只想做一只安静的程序猿...
 description:
 keywords:
@@ -24,6 +24,10 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
+blockchain_dir: blockchain
+ios_dir: ios
+lifestyle_dir: lifestyle
+tools_dir: tools
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -77,7 +81,7 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 #RSS订阅 plugin: - hexo-generator-feed
 #Feed Atom feed: type: atom path: atom.xml limit: 20
-theme: spfk
+theme: black-blue
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -90,18 +94,31 @@ deploy:
 ## avatar
 ## aside-description
 ## links
-search: true
-#path: search.json
+#search:
+#  path: search.xml
 #  field: post
-avatar: http://olnzpdi2u.bkt.clouddn.com/avatar.jpg
+#  format: html
+#  limit: 10000
+  
+ 
+search: 
+  path: search.json
+  field: post
+
+#avatar: http://olnzpdi2u.bkt.clouddn.com/avatar.jpg
 aside-description: aside-description
 links:
   百度: https://www.baidu.com/
   谷歌: https://www.google.com/
   知乎: https://www.zhihu.com/
-#livere_uid: MTAyMC8zOTM1OC8xNTg4NQ==
 
-#admin:
-#    username: lp191
-#    password_hash: eb3c3045f91642ccd710eb4b08ffcf1b
-#    secret: a secret something
+# hexo-admin authentification
+admin:
+  username: lpz191
+  password_hash: $2a$10$kiIfTwRMfbk9heZMzsB0ou016DlZ5ahERxHFfVJFaAOzgdiX17Tey
+  secret: 密码
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
