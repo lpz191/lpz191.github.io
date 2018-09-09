@@ -4,9 +4,11 @@ tags:
   - Markdown
 categories:
   - 实用工具
+date: 2016-02-01 12:06:00
 ---
 
-** {{ title }}：** <Excerpt in index | 首页摘要>
+<Excerpt in index | 首页摘要>
+MWeb简介
 <!-- more -->
 <The rest of contents | 余下全文>
 

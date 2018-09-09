@@ -3,10 +3,11 @@ author: Aaron Liu
 tags: Markdown
 categories:
   - 实用工具
-date: 2018-09-01 12:06:00
+date: 2016-02-02 12:06:00
 ---
 
-** {{ title }}：** <Excerpt in index | 首页摘要>
+<Excerpt in index | 首页摘要>
+Markdown 的目標是實現「易讀易寫」。
 <!-- more -->
 <The rest of contents | 余下全文>
 
