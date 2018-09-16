@@ -1,0 +1,16 @@
+<section id="comments">
+<link rel="stylesheet" href="/css/gitment.min.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '<%= page.date %>',
+  owner: 'lpz191',
+  repo: 'lpz191.github.io',
+  oauth: {
+    client_id: 'da3e904ea185d4902e16',
+    client_secret: '5291a542421f06655216a5fa4b265abce84ed19c',
+  },
+})
+gitment.render('comments')
+</script>
+</section>
