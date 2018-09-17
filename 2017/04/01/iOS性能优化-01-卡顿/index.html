@@ -9,18 +9,18 @@
   
   <title>iOS性能优化（一）—— 卡顿优化 | Aaron的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="\性能优化从哪些方面着手？什么是CPU，什么是GPU？列表卡顿的原因可能有哪些？你平时是怎么优化的？遇到tableView卡顿嘛？会造成卡顿的原因大致有哪些？">
+  <meta name="description" content="性能优化从哪些方面着手？什么是CPU，什么是GPU？列表卡顿的原因可能有哪些？你平时是怎么优化的？遇到tableView卡顿嘛？会造成卡顿的原因大致有哪些？">
 <meta name="keywords" content="iOS高级,性能优化">
 <meta property="og:type" content="article">
 <meta property="og:title" content="iOS性能优化（一）—— 卡顿优化">
 <meta property="og:url" content="http://www.520tech.cn/2017/04/01/iOS性能优化-01-卡顿/index.html">
 <meta property="og:site_name" content="Aaron的博客">
-<meta property="og:description" content="\性能优化从哪些方面着手？什么是CPU，什么是GPU？列表卡顿的原因可能有哪些？你平时是怎么优化的？遇到tableView卡顿嘛？会造成卡顿的原因大致有哪些？">
+<meta property="og:description" content="性能优化从哪些方面着手？什么是CPU，什么是GPU？列表卡顿的原因可能有哪些？你平时是怎么优化的？遇到tableView卡顿嘛？会造成卡顿的原因大致有哪些？">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-17T14:42:53.244Z">
+<meta property="og:updated_time" content="2018-09-17T14:47:46.330Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="iOS性能优化（一）—— 卡顿优化">
-<meta name="twitter:description" content="\性能优化从哪些方面着手？什么是CPU，什么是GPU？列表卡顿的原因可能有哪些？你平时是怎么优化的？遇到tableView卡顿嘛？会造成卡顿的原因大致有哪些？">
+<meta name="twitter:description" content="性能优化从哪些方面着手？什么是CPU，什么是GPU？列表卡顿的原因可能有哪些？你平时是怎么优化的？遇到tableView卡顿嘛？会造成卡顿的原因大致有哪些？">
   
     <link rel="alternative" href="/atom.xml" title="Aaron的博客" type="application/atom+xml">
   
@@ -312,7 +312,9 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>\<excerpt in="" index="" |="" 首页摘要\=""><br>性能优化从哪些方面着手？<br>什么是CPU，什么是GPU？<br>列表卡顿的原因可能有哪些？你平时是怎么优化的？<br>遇到tableView卡顿嘛？会造成卡顿的原因大致有哪些？<br><a id="more"></a><br>\<the rest="" of="" contents="" |="" 余下全文\=""></the></excerpt></p>
+        <p><excerpt in="" index="" |="" 首页摘要=""><br>性能优化从哪些方面着手？<br>什么是CPU，什么是GPU？<br>列表卡顿的原因可能有哪些？你平时是怎么优化的？<br>遇到tableView卡顿嘛？会造成卡顿的原因大致有哪些？<br><a id="more"></a></excerpt></p>
+<the rest="" of="" contents="" |="" 余下全文="">
+
 <h1 id="CPU和GPU"><a href="#CPU和GPU" class="headerlink" title="CPU和GPU"></a>CPU和GPU</h1><p>在屏幕成像的过程中，CPU和GPU起着至关重要的作用。</p>
 <ul>
 <li><p><code>CPU</code>——（<code>Central Processing Unit</code>，中央处理器）主要负责对象的创建和销毁、对象属性的调整、布局计算、文本的计算和排版、图片的格式转换和解码、图像的绘制（<code>Core Graphics</code>）。</p>
@@ -387,7 +389,7 @@
 </ul>
 <p><strong>如果设置了<code>layer.shadowPath</code>就不会产生离屏渲染</strong></p>
 <h1 id="卡顿的检测"><a href="#卡顿的检测" class="headerlink" title="卡顿的检测"></a>卡顿的检测</h1><p>我们平时所说的“卡顿”主要是因为在主线程执行了比较耗时的操作，可以添加Observer到主线程RunLoop中，通过监听RunLoop状态切换的耗时，以达到监控卡顿的目的：<br>（监测从结束休眠处理source1，到开始休眠处理source0所用的时间）</p>
-
+</the>
       
     </div>
     
@@ -398,7 +400,7 @@
         <p><span>本文标题:</span><a  href="/2017/04/01/iOS性能优化-01-卡顿/">iOS性能优化（一）—— 卡顿优化</a></p>
         <p><span>文章作者:</span><a  href="/" title="访问 Aaron Liu 的个人博客">Aaron Liu</a></p>
         <p><span>发布时间:</span>2017年04月01日 - 01时50分</p>
-        <p><span>最后更新:</span>2018年09月17日 - 22时42分</p>
+        <p><span>最后更新:</span>2018年09月17日 - 22时47分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2017/04/01/iOS性能优化-01-卡顿/" title="iOS性能优化（一）—— 卡顿优化">http://www.520tech.cn/2017/04/01/iOS性能优化-01-卡顿/</a>
             <span class="copy-path" data-clipboard-text="原文: http://www.520tech.cn/2017/04/01/iOS性能优化-01-卡顿/　　作者: Aaron Liu" title=""></span>
